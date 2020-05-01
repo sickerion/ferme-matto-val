@@ -1,0 +1,106 @@
+<template>
+  <div class="headerContainer">
+    <div class="textContainer">
+      <p class="title">Ferme Matto-Val</p>
+      <div class="separation"></div>
+      <p class="subtitle">Halte Champêtre</p>
+    </div>
+    <b-img :src="headerImage" alt="Ferme" fluid></b-img>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'FrontPageHeader',
+  data: function () {
+      return {
+        headerImage: require('../assets/serre_sous_neige.jpg')
+      }
+    },
+}
+</script>
+
+<style scoped lang="scss">
+  .headerContainer {
+    position: relative;
+  }
+
+.textContainer {
+  position: absolute;
+  top: 10em;
+  right: 5em;
+  text-align: right;
+}
+
+.title {
+  font-family: 'Sniglet-Regular', Sniglet-Regular, sans-serif;
+  font-size: 70pt;
+  margin-bottom: 0;
+  color: $custom-milk;
+}
+
+.subtitle {
+  font-family: 'Sniglet-Regular', Sniglet-Regular, sans-serif;
+  font-size: 45pt;
+  margin-bottom: 0;
+  color: $custom-milk;
+}
+
+.separation {
+  border-bottom: 4px solid $custom-milk;
+  border-top: 4px solid $custom-milk;
+  border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 960px) {
+  .textContainer {
+    top: 7em;
+    right: 3em;
+  }
+
+  .title {
+    font-size: 50pt;
+
+  }
+
+  .subtitle {
+    font-size: 30pt;
+
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .textContainer {
+    top: 5em;
+    right: 2em;
+  }
+
+  .title {
+    font-size: 40pt;
+
+  }
+
+  .subtitle {
+    font-size: 25pt;
+
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .textContainer {
+    top: 3em;
+    right: 1em;
+  }
+
+  .title {
+    font-size: 25pt;
+
+  }
+
+  .subtitle {
+    font-size: 18pt;
+
+  }
+}
+</style>

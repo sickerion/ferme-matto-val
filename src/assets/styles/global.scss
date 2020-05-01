@@ -1,0 +1,41 @@
+/* Fonts */ 
+
+@font-face {
+  font-family: 'Sniglet-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Sniglet-Regular'), url(~@/assets/fonts/Sniglet-Regular.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto-Medium'), url(~@/assets/fonts/Roboto-Medium.ttf) format('ttf');
+}
+
+/* Colors */
+
+$custom-blue: #016FB9;
+$custom-red: #FF1D15;
+$custom-green: #3FAD20;
+$custom-light-red: #F46036;
+$custom-milk: #FBF5F3;
+
+/* Styles */
+
+h1 {
+  font-family: 'Roboto-Medium', Roboto-Medium, sans-serif;
+  font-size: 40pt;
+  margin-bottom: 0;
+  color: black;
+}
+
+p {
+    font-family: 'Roboto-Medium', Roboto-Medium, sans-serif;
+    font-size: 16pt;
+    margin-bottom: 0;
+    color: black;
+}
