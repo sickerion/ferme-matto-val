@@ -1,10 +1,12 @@
 <template>
   <div class="headerContainer">
-    <div class="textContainer">
-      <p class="title">Ferme Matto-Val</p>
-      <div class="separation"></div>
-      <p class="subtitle">Halte Champêtre</p>
-    </div>
+    <transition name="fade-in">
+      <div class="textContainer" v-if="showText">
+        <p class="title">Ferme Matto-Val</p>
+        <div class="separation"></div>
+        <p class="subtitle">Halte Champêtre</p>
+      </div>
+    </transition>
     <b-img :src="headerImage" alt="Ferme" fluid></b-img>
   </div>
 </template>
@@ -13,10 +15,14 @@
 export default {
   name: 'FrontPageHeader',
   data: function () {
-      return {
-        headerImage: require('../assets/serre_sous_neige.jpg')
-      }
-    },
+    return {
+      headerImage: require('../assets/serre_sous_neige.jpg'),
+      showText: false,
+    }
+  },
+  mounted: function () {
+    this.showText = true;
+  }
 }
 </script>
 
@@ -30,6 +36,14 @@ export default {
   top: 10em;
   right: 5em;
   text-align: right;
+}
+
+.fade-in-enter-active {
+  transition: opacity 1s;
+}
+
+.fade-in-enter {
+  opacity: 0;
 }
 
 .title {
