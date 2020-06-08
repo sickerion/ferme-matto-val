@@ -1,9 +1,6 @@
 <template>
   <div>
     <b-row>
-      <b-col lg="8">
-        <b-img :src="strawberriesImage" alt="Fraises" fluid></b-img>
-      </b-col>
       <b-col lg="4" align-self="center">
         <div class="text-zone">
           <h1>Plein de fraises en 2021</h1>
@@ -12,6 +9,9 @@
             Six variétés de fraises vous seront offertes en autocueillette et au kiosque à la ferme.
           </p>
         </div>
+      </b-col>
+      <b-col lg="8">
+        <b-img :src="strawberriesImage" alt="Fraises" fluid></b-img>
       </b-col>
     </b-row>
   </div>

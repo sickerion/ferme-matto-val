@@ -4,6 +4,7 @@
     <FarmDescription id="farmDescription" />
     <Vegetables id="vegetables" />
     <Stall id="stall" />
+    <PublicMarket id="publicMarket" />
     <Strawberries id="strawberries" />
     <Contact id="contact" />
   </div>
@@ -14,6 +15,7 @@ import FrontPageHeader from './FrontPageHeader.vue';
 import FarmDescription from './FarmDescription.vue';
 import Vegetables from './Vegetables.vue';
 import Stall from './Stall.vue';
+import PublicMarket from './PublicMarket.vue'
 import Strawberries from './Strawberries.vue';
 import Contact from './Contact.vue';
 
@@ -24,6 +26,7 @@ export default {
     FarmDescription,
     Vegetables,
     Stall,
+    PublicMarket,
     Strawberries,
     Contact
   },
