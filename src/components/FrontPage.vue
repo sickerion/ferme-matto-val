@@ -2,10 +2,9 @@
   <div class="frontPageContainer">
     <FrontPageHeader />
     <FarmDescription id="farmDescription" />
-    <Vegetables id="vegetables" />
-    <Stall id="stall" />
-    <PublicMarket id="publicMarket" />
     <Strawberries id="strawberries" />
+    <Certification id="certification" />
+    <Caroussel id="caroussel" />
     <Contact id="contact" />
   </div>
 </template>
@@ -13,9 +12,8 @@
 <script>
 import FrontPageHeader from './FrontPageHeader.vue';
 import FarmDescription from './FarmDescription.vue';
-import Vegetables from './Vegetables.vue';
-import Stall from './Stall.vue';
-import PublicMarket from './PublicMarket.vue'
+import Caroussel from './Caroussel.vue';
+import Certification from './Certification.vue';
 import Strawberries from './Strawberries.vue';
 import Contact from './Contact.vue';
 
@@ -24,9 +22,8 @@ export default {
   components: {
     FrontPageHeader,
     FarmDescription,
-    Vegetables,
-    Stall,
-    PublicMarket,
+    Certification,
+    Caroussel,
     Strawberries,
     Contact
   },

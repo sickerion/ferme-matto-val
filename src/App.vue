@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Navbar v-bind:showNavbar="showNavbar" v-on:scroll-into-view="onScrollIntoView" />
+    <Navbar id="header" v-bind:showNavbar="showNavbar" v-on:scroll-into-view="onScrollIntoView" />
     <FrontPage v-bind:viewToScrollInto="viewToScrollInto"/>
   </div>
 </template>
@@ -58,5 +58,14 @@
     color: #2c3e50;
     background-color: #fbf5f3;
     overflow-y: hidden;
+  }
+
+  .container-padding {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  .title-padding {
+    padding-bottom: 0.5em;
   }
 </style>

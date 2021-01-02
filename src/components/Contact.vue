@@ -76,6 +76,7 @@ export default {
     .info {
       margin-top: 2em;
       text-align: center;
+      padding-bottom: 1.5em;
     }
     .textContainer {
       justify-content: center;
