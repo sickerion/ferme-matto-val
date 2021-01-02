@@ -16,7 +16,7 @@ export default {
   name: 'FrontPageHeader',
   data: function () {
     return {
-      headerImage: require('../assets/serre_sous_neige.jpg'),
+      headerImage: "https://i.imgur.com/4opPAYT.jpg",
       showText: false,
     }
   },

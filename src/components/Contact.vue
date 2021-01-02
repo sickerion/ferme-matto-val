@@ -32,7 +32,7 @@
     </b-row>
     <b-row class="copyright">
       <b-col>
-        <p class="whiteText">© Ferme Matto-Val 2020 | Etienne Matteau</p>
+        <p class="whiteText">© Ferme Matto-Val 2021 | Etienne Matteau</p>
       </b-col>
     </b-row>
   </div>
