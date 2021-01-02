@@ -1,12 +1,12 @@
 <template>
-  <div>
+  <div class="strawberries-container">
     <b-row>
-      <b-col lg="4" align-self="center">
+      <b-col class="container-padding" lg="4" align-self="center">
         <div class="text-zone">
-          <h1>Plein de fraises en 2021</h1>
-          <p>
-            Cette année des milliers de fraisiers ont été plantés, mais ils produiront des fraises sucrés l'année prochaine seulement.
-            Six variétés de fraises vous seront offertes en autocueillette et au kiosque à la ferme.
+          <h1 class="text title-padding">Le meilleur fruit</h1>
+          <p class="text">
+            Que vous les préférez sucrées ou juteuses, grosses ou petites, nos huit variétés de fraises disponnible de la mi-juin à la fin juillet seront vous charmer. 
+            Venez les choisir vous même en autocuillette ou passez chercher un casseau avec quelques légumes à notre kiosque.
           </p>
         </div>
       </b-col>
@@ -29,6 +29,14 @@ export default {
 </script>
 
 <style scoped lang="scss">
+  .strawberries-container {
+    background: $custom-blue;
+  }
+
+  .text {
+    color: $custom-milk;
+  }
+
   .text-zone {
     margin: 0.5em;
   }
