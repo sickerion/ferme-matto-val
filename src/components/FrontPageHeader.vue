@@ -39,7 +39,7 @@ export default {
 }
 
 .fade-in-enter-active {
-  transition: opacity 1s;
+  transition: opacity 1.5s;
 }
 
 .fade-in-enter {

@@ -17,7 +17,7 @@
     <div class="text-container">
       <h1 class="title-padding">Une aventure aux racines familiales</h1>
       <p>
-        Cultivant sur les terres de Val-Alain depuis plus de 60 ans, la famille Matteau a débuté la culture de fraises et de légumes en 2019.
+        Cultivant sur les terres de Val-Alain depuis plus de 60 ans, la famille Matteau a débuté la culture de fraises et de légumes en 2020.
         Soucieuse de léguer un environnement sain aux générations futures et d'offir des produitsn de qualité, l'ensemble de sa production végétale est biologique.
       </p>
     </div>
