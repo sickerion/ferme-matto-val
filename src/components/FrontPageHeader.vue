@@ -33,7 +33,7 @@ export default {
 
 .textContainer {
   position: absolute;
-  top: 10em;
+  top: 5em;
   right: 5em;
   text-align: right;
 }
@@ -69,8 +69,25 @@ export default {
 
 @media only screen and (max-width: 960px) {
   .textContainer {
-    top: 7em;
+    top: 3em;
     right: 3em;
+  }
+
+  .title {
+    font-size: 60pt;
+
+  }
+
+  .subtitle {
+    font-size: 40pt;
+
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .textContainer {
+    top: 2em;
+    right: 2em;
   }
 
   .title {
@@ -84,36 +101,19 @@ export default {
   }
 }
 
-@media only screen and (max-width: 720px) {
-  .textContainer {
-    top: 5em;
-    right: 2em;
-  }
-
-  .title {
-    font-size: 40pt;
-
-  }
-
-  .subtitle {
-    font-size: 25pt;
-
-  }
-}
-
 @media only screen and (max-width: 540px) {
   .textContainer {
-    top: 3em;
+    top: 1.5em;
     right: 1em;
   }
 
   .title {
-    font-size: 25pt;
+    font-size: 30pt;
 
   }
 
   .subtitle {
-    font-size: 18pt;
+    font-size: 25pt;
 
   }
 }
