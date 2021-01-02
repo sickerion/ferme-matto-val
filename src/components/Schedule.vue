@@ -17,7 +17,7 @@
         </div>
       </b-col>
       <b-col lg="8">
-        <b-img :src="stallImage" alt="Kiosque" fluid></b-img>
+        <b-img :src="scheduleImage" alt="Kiosque" fluid></b-img>
       </b-col>
     </b-row>
   </div>
@@ -28,7 +28,7 @@ export default {
   name: 'Schedule',
   data: function () {
     return {
-      stallImage: require('../assets/kiosque.jpg')
+      scheduleImage: require('../assets/kiosque.jpg')
     }
   },
 }

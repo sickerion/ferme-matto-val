@@ -5,8 +5,8 @@
         <div class="text-zone">
           <h1 class="text title-padding">Le meilleur fruit</h1>
           <p class="text">
-            Que vous les préférez sucrées ou juteuses, grosses ou petites, nos huit variétés de fraises disponnible de la mi-juin à la fin juillet seront vous charmer. 
-            Venez les choisir vous même en autocuillette ou passez chercher un casseau avec quelques légumes à notre kiosque.
+            Que vous les préférez sucrées ou juteuses, grosses ou petites, nos huit variétés de fraises disponnibles de mi-juin à la fin juillet seront vous charmer. 
+            Venez les choisir vous même en autocuillette ou passez à notre kiosque prendre un casseau bien rempli avec quelques légumes.
           </p>
         </div>
       </b-col>
