@@ -2,12 +2,12 @@
   <div class="headerContainer">
     <transition name="fade-in">
       <div class="textContainer" v-if="showText">
-        <p class="title">Ferme Matto-Val</p>
+        <h1 class="title">Ferme Matto-Val</h1>
         <div class="separation"></div>
-        <p class="subtitle">Halte Champêtre</p>
+        <h2 class="subtitle">Halte Champêtre</h2>
       </div>
     </transition>
-    <b-img :src="headerImage" alt="Ferme" fluid></b-img>
+    <b-img :src="headerImage" alt="Ferme Matto-Val" fluid></b-img>
   </div>
 </template>
 
@@ -75,12 +75,10 @@ export default {
 
   .title {
     font-size: 60pt;
-
   }
 
   .subtitle {
     font-size: 40pt;
-
   }
 }
 

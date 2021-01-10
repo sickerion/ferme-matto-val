@@ -11,7 +11,7 @@
         </div>
       </b-col>
       <b-col lg="8">
-        <b-img :src="strawberriesImage" alt="Fraises" fluid></b-img>
+        <b-img :src="strawberriesImage" alt="Fraises biologiques" fluid></b-img>
       </b-col>
     </b-row>
   </div>

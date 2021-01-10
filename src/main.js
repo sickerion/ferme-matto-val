@@ -7,6 +7,9 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 
 Vue.use(BootstrapVue);
 
+import VueMeta from 'vue-meta';
+Vue.use(VueMeta);
+
 Vue.config.productionTip = false
 
 new Vue({

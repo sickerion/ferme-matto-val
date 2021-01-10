@@ -1,7 +1,7 @@
 <template>
   <div class="certification-container container-padding">
     <div>
-      <b-img class="image" :src="stallImage" alt="Logo Biologique" fluid></b-img>
+      <b-img class="image" :src="stallImage" alt="Logo biologique" fluid></b-img>
     </div>
       <div class="text-container">
         <h1 class="title-padding title-padding">Certifié biologique par Ecocert</h1>

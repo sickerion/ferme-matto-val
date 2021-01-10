@@ -27,11 +27,11 @@
 <script>
   export default {
     name: 'FarmDescription',
-    data: function () {
+    /*data: function () {
       return {
         descriptionImage: require('../assets/famille.jpg')
       }
-    },
+    },*/
   }
 </script>
 
