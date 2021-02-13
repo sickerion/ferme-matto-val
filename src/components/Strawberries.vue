@@ -34,6 +34,7 @@ export default {
   }
 
   .text {
+    font-family: 'Sniglet';
     color: $custom-milk;
   }
 

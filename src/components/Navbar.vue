@@ -39,7 +39,7 @@
   }
 
   .text {
-    font-family: 'Roboto-Medium', Roboto-Medium, sans-serif;
+    font-family: 'Sniglet';
     font-size: 16pt;
     margin-bottom: 0;
     color: $custom-milk;

@@ -4,7 +4,7 @@
       <b-img class="image" :src="stallImage" alt="Logo biologique" fluid></b-img>
     </div>
       <div class="text-container">
-        <h1 class="title-padding title-padding">Certifié biologique par Ecocert</h1>
+        <h1 class="title title-padding">Certifié biologique par Ecocert</h1>
         <p class="text-content">
             Parce que votre santé et celle de l'environnement nous tiennent à coeur, nos fraises et nos légumes sont biologiques.
             Aucun produit chimique n'est utilisé pour faire pousser nos cultures et nos pratiques agricoles sont durables pour l'écosystème. 
@@ -34,7 +34,12 @@ export default {
     padding: 1em 20em 1em 20em;
   }
 
+  .title {
+    font-family: 'Sniglet';
+  }
+
   .text-content {
+    font-family: 'Sniglet';
     margin-bottom: 0.5em;
   }
 

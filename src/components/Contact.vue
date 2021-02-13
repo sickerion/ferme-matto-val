@@ -6,14 +6,14 @@
       </b-col>
       <b-col class="info" lg="6" align-self="center">
         <b-row class="textContainer">
-          <p class="whiteText">(581) 996-1001</p>
+          <p class="text">(581) 996-1001</p>
         </b-row>
         <b-row class="textContainer">
-          <p class="whiteText">haltechampetremattoval</p>
-          <p class="whiteText">@gmail.com</p>
+          <p class="text">haltechampetremattoval</p>
+          <p class="text">@gmail.com</p>
         </b-row>
         <b-row class="textContainer">
-          <p class="whiteText">490, 5e rang, Val-Alain (Québec) G0S 3H0</p>
+          <p class="text">490, 5e rang, Val-Alain (Québec) G0S 3H0</p>
         </b-row>
       </b-col>
       <b-col lg="4">
@@ -32,7 +32,7 @@
     </b-row>
     <b-row class="copyright">
       <b-col>
-        <p class="whiteText">© Ferme Matto-Val 2021 | Etienne Matteau</p>
+        <p class="text">© Ferme Matto-Val 2021 | Etienne Matteau</p>
       </b-col>
     </b-row>
   </div>
@@ -57,7 +57,8 @@ export default {
     margin-right: 0.5em;
   }
 
-  .whiteText {
+  .text {
+    font-family: 'Sniglet';
     color: $custom-milk;
   }
 

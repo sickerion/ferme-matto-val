@@ -47,14 +47,14 @@ export default {
 }
 
 .title {
-  font-family: 'Sniglet-Regular', Sniglet-Regular, sans-serif;
+  font-family: 'Sniglet';
   font-size: 70pt;
   margin-bottom: 0;
   color: $custom-milk;
 }
 
 .subtitle {
-  font-family: 'Sniglet-Regular', Sniglet-Regular, sans-serif;
+  font-family: 'Sniglet';
   font-size: 45pt;
   margin-bottom: 0;
   color: $custom-milk;

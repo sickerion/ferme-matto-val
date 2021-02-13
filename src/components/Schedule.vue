@@ -44,10 +44,12 @@ export default {
   }
 
   .schedule-title {
+    font-family: 'Sniglet';
     color: black;
   }
 
   .text {
+    font-family: 'Sniglet';
     color: $custom-milk;
   }
 
