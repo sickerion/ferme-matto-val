@@ -36,7 +36,6 @@ export default {
 
   .title {
     font-family: 'Sniglet';
-    font-size: 36pt;
   }
 
   .text-content {

@@ -13,7 +13,7 @@
           <p class="text">@gmail.com</p>
         </b-row>
         <b-row class="textContainer">
-          <p class="text">490, 5e rang, Val-Alain (Québec) G0S 3H0</p>
+          <p class="text">490 5e rang, Val-Alain Québec G0S 3H0</p>
         </b-row>
       </b-col>
       <b-col lg="4">
@@ -26,6 +26,7 @@
           allowfullscreen=""
           aria-hidden="false"
           tabindex="0"
+          title="Adresse sur la carte"
         >
         </iframe>
       </b-col>

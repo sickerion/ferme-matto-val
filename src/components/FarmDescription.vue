@@ -15,7 +15,7 @@
       </b-col>
     </b-row>-->
     <div class="text-container">
-      <h1 class="text title-padding">Une aventure aux racines familiales</h1>
+      <h1 class="title text title-padding">Une aventure aux racines familiales</h1>
       <p class="text">
         Cultivant sur les terres de Val-Alain depuis plus de 60 ans, la famille Matteau a débuté la culture de fraises et de légumes en 2020.
         Soucieuse de léguer un environnement sain aux générations futures et d'offrir des produits de qualité, l'ensemble de sa production végétale est biologique.
@@ -48,6 +48,10 @@
 
   .text {
     font-family: 'Sniglet';
+  }
+
+  .title {
+    font-size: 36pt;
   }
 
   @media only screen and (max-width: 1100px) {

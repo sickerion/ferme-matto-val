@@ -3,7 +3,7 @@
     <b-row>
       <b-col class="container-padding" lg="4" align-self="center">
         <div class="text-zone">
-          <h1 class="text title-padding">La grande nouveauté de cette année</h1>
+          <h1 class="title text title-padding">La grande nouveauté de cette année</h1>
           <p class="text">
             Que vous les préférez sucrées ou juteuses, grosses ou petites, nos huit variétés de fraises disponnibles de mi-juin à la fin juillet seront vous charmer. 
             Venez les choisir vous même en autocueillette ou passez à notre kiosque prendre un casseau bien rempli avec quelques légumes.
@@ -11,7 +11,7 @@
         </div>
       </b-col>
       <b-col lg="8">
-        <b-img :src="strawberriesImage" alt="Fraises biologiques" fluid></b-img>
+        <b-img :src="strawberriesImage" alt="Fraises biologiques" class="image"></b-img>
       </b-col>
     </b-row>
   </div>
@@ -40,5 +40,13 @@ export default {
 
   .text-zone {
     margin: 0.5em;
+  }
+
+  .image {
+    height: 45rem;
+  }
+
+  .title {
+    font-size: 36pt;
   }
 </style>

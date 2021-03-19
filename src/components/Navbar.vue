@@ -12,6 +12,7 @@
           <b-nav-item class="text" active @click="$emit('scroll-into-view', '#farmDescription')"><span>La ferme</span></b-nav-item>
           <b-nav-item class="text" active @click="$emit('scroll-into-view', '#strawberries')">Fraises</b-nav-item>
           <b-nav-item class="text" active @click="$emit('scroll-into-view', '#certification')">Certification</b-nav-item>
+          <!--<b-nav-item class="text" active @click="$emit('onGoToAutocueillette')">Autocueillette</b-nav-item>-->
           <b-nav-item class="text" active @click="$emit('scroll-into-view', '#contact')">Nous joindre</b-nav-item>
         </b-navbar-nav> 
       </b-collapse>

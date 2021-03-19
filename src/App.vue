@@ -1,13 +1,15 @@
 <template>
   <div id="app">
-    <Navbar id="header" v-bind:showNavbar="showNavbar" v-on:scroll-into-view="onScrollIntoView" />
-    <FrontPage v-bind:viewToScrollInto="viewToScrollInto"/>
+    <Navbar id="header" v-bind:showNavbar="showNavbar" v-on:scroll-into-view="onScrollIntoView" v-on:onGoToAutocueillette="goToAutocueillette"/>
+    <FrontPage v-if="!showAutocueillette" v-bind:viewToScrollInto="viewToScrollInto"/>
+    <Autocueillette v-else />
   </div>
 </template>
 
 <script>
   import Navbar from './components/Navbar.vue'
   import FrontPage from './components/FrontPage.vue'
+  import Autocueillette from './components/Autocueillette.vue'
 
   export default {
     name: 'App',
@@ -38,7 +40,8 @@
     },
     components: {
       Navbar,
-      FrontPage 
+      FrontPage,
+      Autocueillette
     },
     created () {
       window.addEventListener('scroll', this.onScoll);
@@ -49,11 +52,13 @@
     data: () => ({
       viewToScrollInto: '',
       lastScrollPosition: 0,
-      showNavbar: true
+      showNavbar: true,
+      showAutocueillette: false
     }),
 
     methods: {
       onScrollIntoView: function (view) {
+        this.showAutocueillette = false;
         this.viewToScrollInto = view;
       },
       onScoll () {
@@ -69,7 +74,10 @@
         }
         this.showNavbar = currentScrollPosition < this.lastScrollPosition;
         this.lastScrollPosition = currentScrollPosition;
-      }
+      },
+      goToAutocueillette: function () {
+        this.showAutocueillette = true;
+      },
     }
   }
 </script>

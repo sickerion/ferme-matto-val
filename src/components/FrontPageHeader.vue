@@ -4,10 +4,11 @@
       <div class="textContainer" v-if="showText">
         <h1 class="title">Ferme Matto-Val</h1>
         <div class="separation"></div>
-        <h2 class="subtitle">Halte Champêtre</h2>
+        <h2 class="subtitle">Fraises et légumes</h2>
+        <h2 class="subtitle">biologiques</h2>
       </div>
     </transition>
-    <b-img :src="headerImage" alt="Ferme Matto-Val" fluid></b-img>
+    <b-img :src="headerImage" alt="Ferme Matto-Val" class="image"></b-img>
   </div>
 </template>
 
@@ -16,7 +17,7 @@ export default {
   name: 'FrontPageHeader',
   data: function () {
     return {
-      headerImage: "https://i.imgur.com/4opPAYT.jpg",
+      headerImage: "https://i.imgur.com/RkOSF5l.jpg",
       showText: false,
     }
   },
@@ -66,11 +67,16 @@ export default {
   border-radius: 5px;
 }
 
+.image {
+  height: 50rem;
+}
 
 @media only screen and (max-width: 960px) {
   .textContainer {
-    top: 3em;
+    top: 5em;
     right: 3em;
+    left: 3em;
+    text-align: center;
   }
 
   .title {
@@ -80,16 +86,41 @@ export default {
   .subtitle {
     font-size: 40pt;
   }
+
+  .image {
+    height: 30rem;
+  }
 }
 
 @media only screen and (max-width: 720px) {
   .textContainer {
-    top: 2em;
-    right: 2em;
+    top: 7em;
+    right: 1.25em;
+    left: 1.25em;
+    text-align: center;
   }
 
   .title {
     font-size: 50pt;
+
+  }
+
+  .subtitle {
+    font-size: 35pt;
+
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .textContainer {
+    top: 7em;
+    right: 0.75em;
+    left: 0.75em;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 40pt;
 
   }
 
@@ -99,10 +130,34 @@ export default {
   }
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 420px) {
   .textContainer {
-    top: 1.5em;
-    right: 1em;
+    top: 4em;
+    right: 0.5em;
+    left: 0.5em;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 35pt;
+
+  }
+
+  .subtitle {
+    font-size: 28pt;
+  }
+
+  .image {
+    height: 20rem;
+  }
+}
+
+  @media only screen and (max-width: 370px) {
+  .textContainer {
+    top: 4em;
+    right: 0.5em;
+    left: 0.5em;
+    text-align: center;
   }
 
   .title {
@@ -112,7 +167,6 @@ export default {
 
   .subtitle {
     font-size: 25pt;
-
   }
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
 <div class="caroussel-container">
   <b-carousel class="caroussel" :interval="2000" controls>
-    <b-carousel-slide v-for="(vegetableImage, i) in vegetableImages" :key="i" :img-src="vegetableImage"></b-carousel-slide>
+    <b-carousel-slide v-for="(vegetableImage, i) in vegetableImages" :key="i" img-alt="getImageAlt()" :img-src="vegetableImage"></b-carousel-slide>
   </b-carousel>
 </div>
 </template>
@@ -36,6 +36,11 @@
         ]
       }
     },
+    method: {
+      getImageAlt(index) {
+        return `Image Caroussel ${index}`;
+      }
+    }
   }
 </script>
 
