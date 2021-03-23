@@ -11,12 +11,13 @@
     name: 'Vegetables',
     mounted() {
       this.vegetableImages = [
-          "https://i.imgur.com/pX5E3mF.jpg",
-          "https://i.imgur.com/GgxdpG2.jpg",
-          "https://i.imgur.com/UWmhuc1.jpg",
-          "https://i.imgur.com/jmO8XMT.jpg",
-          "https://i.imgur.com/pIATp53.jpg",
-          "https://i.imgur.com/S5mjvT2.jpg",
+          "https://i.imgur.com/BTpzktl.jpg",
+          "https://i.imgur.com/V1MAQTL.jpg",
+          "https://i.imgur.com/Pagv1zR.jpg",
+          "https://i.imgur.com/z6WBgX8.jpg",
+          "https://i.imgur.com/0jCami4.jpg",
+          "https://i.imgur.com/RgIsfn1.jpg"
+
         ];
     },
     data: function () {
