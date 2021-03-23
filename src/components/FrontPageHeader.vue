@@ -17,7 +17,7 @@ export default {
   name: 'FrontPageHeader',
   data: function () {
     return {
-      headerImage: "https://i.imgur.com/RkOSF5l.jpg",
+      headerImage: "https://i.imgur.com/h0DxFUu.jpg",
       showText: false,
     }
   },

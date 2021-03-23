@@ -1,7 +1,7 @@
 <template>
-<div class="caroussel-container">
+<div v-if="vegetableImages" class="caroussel-container">
   <b-carousel class="caroussel" :interval="2000" controls>
-    <b-carousel-slide v-for="(vegetableImage, i) in vegetableImages" :key="i" img-alt="getImageAlt()" :img-src="vegetableImage"></b-carousel-slide>
+    <b-carousel-slide v-for="(vegetableImage, i) in vegetableImages.map(a => ({ sort: Math.random(), value: a })).sort((a, b) => a.sort - b.sort).map(a => a.value)" :key="i" img-alt="getImageAlt()" :img-src="vegetableImage"></b-carousel-slide>
   </b-carousel>
 </div>
 </template>
@@ -9,31 +9,19 @@
 <script>
   export default {
     name: 'Vegetables',
+    mounted() {
+      this.vegetableImages = [
+          "https://i.imgur.com/pX5E3mF.jpg",
+          "https://i.imgur.com/GgxdpG2.jpg",
+          "https://i.imgur.com/UWmhuc1.jpg",
+          "https://i.imgur.com/jmO8XMT.jpg",
+          "https://i.imgur.com/pIATp53.jpg",
+          "https://i.imgur.com/S5mjvT2.jpg",
+        ];
+    },
     data: function () {
       return {
-        vegetableImages: [
-          "https://i.imgur.com/0mqv5Ae.jpg",
-          "https://i.imgur.com/EDaxVjD.jpg",
-          "https://i.imgur.com/EWICLCq.jpg",
-          "https://i.imgur.com/lrHG42n.jpg",
-          "https://i.imgur.com/HvNRnNg.jpg",
-          "https://i.imgur.com/FyDpx7q.jpg",
-          "https://i.imgur.com/d1C6r3Y.jpg",
-          "https://i.imgur.com/gcHyeHZ.jpg",
-          "https://i.imgur.com/47bRzc7.jpg",
-          "https://i.imgur.com/QbhIXfh.jpg",
-          "https://i.imgur.com/YpazxFo.jpg",
-          "https://i.imgur.com/ttY1Ky9.jpg",
-          "https://i.imgur.com/jf1e17j.jpg",
-          "https://i.imgur.com/LcJmRgD.jpg",
-          "https://i.imgur.com/lDMPvHj.jpg",
-          "https://i.imgur.com/VlBTgD4.jpg",
-          "https://i.imgur.com/i6cIuco.jpg",
-          "https://i.imgur.com/LWxTfaO.jpg",
-          "https://i.imgur.com/xszZOmV.jpg",
-          "https://i.imgur.com/6z2H2ZU.jpg",
-          "https://i.imgur.com/egevW0B.jpg",
-        ]
+        vegetableImages: undefined
       }
     },
     method: {

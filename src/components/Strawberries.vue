@@ -22,7 +22,7 @@ export default {
   name: 'Strawberries',
   data: function () {
     return {
-      strawberriesImage: "https://i.imgur.com/bHBFTDX.jpg"
+      strawberriesImage: "https://i.imgur.com/odn5cXX.jpg"
     }
   },
 }
