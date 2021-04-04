@@ -2,7 +2,7 @@
   <div class="contactBar">
     <b-row class="contactInfo" align-v="start">
       <b-col lg="2">
-        <img src="../assets/Logov2.svg" class="d-inline-block align-top" alt="Logo complet" height="150px">
+        <img src="../assets/Logo_v3_plein.svg" class="d-inline-block align-top" alt="Logo complet" height="150px">
       </b-col>
       <b-col class="info" lg="6" align-self="center">
         <b-row class="textContainer">
