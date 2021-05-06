@@ -6,14 +6,14 @@
       </b-col>
       <b-col class="info" lg="6" align-self="center">
         <b-row class="textContainer">
-          <p class="text">(581) 996-1001</p>
+          <p class="text">(418) 744-3058</p>
         </b-row>
         <b-row class="textContainer">
           <p class="text">haltechampetremattoval</p>
           <p class="text">@gmail.com</p>
         </b-row>
         <b-row class="textContainer">
-          <p class="text">490 5e rang, Val-Alain Québec G0S 3H0</p>
+          <p class="text">505 5e rang, Val-Alain Québec G0S 3H0</p>
         </b-row>
       </b-col>
       <b-col lg="4">
