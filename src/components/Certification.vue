@@ -9,7 +9,7 @@
             Parce que votre santé et celle de l'environnement nous tiennent à coeur, nos fraises et nos légumes sont biologiques.
             Aucun produit chimique n'est utilisé pour faire pousser nos cultures et nos pratiques agricoles sont durables pour l'écosystème. 
         </p>
-        <a href="https://drive.google.com/file/d/11PibSJ8iGb-mK1YcC1uv4L2bdyaVGLK4/view" target="_blank" rel="noopener noreferrer">Lien vers la certification</a>
+        <a href="https://drive.google.com/file/d/1InGzqcGe43ZQIevdAJ66gcHQlbgz7SxX/view?usp=sharing" target="_blank" rel="noopener noreferrer">Lien vers la certification</a>
       </div>
   </div>
 </template>
