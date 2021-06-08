@@ -1,37 +1,30 @@
 <template>
-  <div class="container-padding">
-    <!--<b-row>
-      <b-col lg="4" align-self="center">
+  <div>
+    <b-row>
+      <b-col lg="8">
+        <b-img :src="famillyImage" alt="Photo de famille" fluid></b-img>
+      </b-col>
+      <b-col class="container-padding" lg="4" align-self="center">
         <div class="text-zone">
-          <h1>Une aventure aux racines familiales</h1>
-          <p>
-            Cultivant sur les terres de Val-Alain depuis plus de 60 ans, la famille Matteau a débuté la culture de fraises et de légumes en 2019.
-            Soucieuse de léguer un environnement sain aux générations futures et d'offir des produitsn de qualité, l'ensemble de sa production végétale est biologique.
+          <h1 class="title text title-padding">Une aventure aux racines familiales</h1>
+          <p class="text">
+            Cultivant sur les terres de Val-Alain depuis plus de 60 ans, la famille Matteau a débuté la culture de fraises et de légumes en 2020.
+            Soucieuse de léguer un environnement sain aux générations futures et d'offrir des produits de qualité, l'ensemble de sa production végétale est biologique.
           </p>
         </div>
       </b-col>
-      <b-col lg="8">
-        <b-img :src="descriptionImage" alt="Photo de famille" fluid></b-img>
-      </b-col>
-    </b-row>-->
-    <div class="text-container">
-      <h1 class="title text title-padding">Une aventure aux racines familiales</h1>
-      <p class="text">
-        Cultivant sur les terres de Val-Alain depuis plus de 60 ans, la famille Matteau a débuté la culture de fraises et de légumes en 2020.
-        Soucieuse de léguer un environnement sain aux générations futures et d'offrir des produits de qualité, l'ensemble de sa production végétale est biologique.
-      </p>
-    </div>
+    </b-row>
   </div>
 </template>
 
 <script>
   export default {
     name: 'FarmDescription',
-    /*data: function () {
-      return {
-        descriptionImage: require('../assets/famille.jpg')
-      }
-    },*/
+    data: function () {
+    return {
+      famillyImage: "https://i.imgur.com/yO7iAfJ.jpg"
+    }
+  },
   }
 </script>
 
