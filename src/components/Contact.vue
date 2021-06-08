@@ -9,8 +9,8 @@
           <p class="text">(418) 744-3058</p>
         </b-row>
         <b-row class="textContainer">
-          <p class="text">haltechampetremattoval</p>
-          <p class="text">@gmail.com</p>
+          <p class="text">info</p>
+          <p class="text">@fermemattoval.com</p>
         </b-row>
         <b-row class="textContainer">
           <p class="text">505 5e rang, Val-Alain Québec G0S 3H0</p>
