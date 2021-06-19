@@ -1,5 +1,21 @@
 <template>
   <div class="contactBar">
+    <b-row align-v="center">
+      <b-col lg="2">
+      </b-col>
+      <b-col lg="4">
+        <a href="https://fraisesetframboisesduquebec.com/autocueillette/ferme-matto-val/" target="_blank" rel="noopener noreferrer">
+          <img style="padding-bottom: 1em;" src="../assets/logo_fraiches.png" class="d-inline-block align-top" alt="Logo fraiches" height="150px">
+        </a>
+      </b-col>
+      <b-col lg="4">
+        <a href="https://www.terego.ca/fr" target="_blank" rel="noopener noreferrer">
+          <img style="padding-bottom: 1em;" src="../assets/logo_terego.png" class="d-inline-block align-top" alt="Logo fraiches" width="250px">
+        </a>
+      </b-col>
+      <b-col lg="2">
+      </b-col>
+    </b-row>
     <b-row class="contactInfo" align-v="start">
       <b-col lg="2">
         <img src="../assets/Logo_v3_plein.svg" class="d-inline-block align-top" alt="Logo complet" height="150px">
@@ -56,6 +72,11 @@ export default {
     padding-bottom: 1em;
     margin-left: 0.5em;
     margin-right: 0.5em;
+  }
+
+  .collaboInfo {
+    padding-bottom: 1em;
+
   }
 
   .text {
