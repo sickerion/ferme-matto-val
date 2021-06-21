@@ -4,7 +4,9 @@
       <b-navbar-brand>
         <img src="../assets/Logov2_petit_sans_fond.svg" class="d-inline-block align-top logo" alt="Logo" width="60px" height="60px" @click="$emit('scroll-into-view', '#header')">
       </b-navbar-brand>
-
+      <div class="name">
+        Ferme Matto-Val
+      </div>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
@@ -48,5 +50,24 @@
 
   .logo {
     cursor: pointer;
+  }
+
+  .name {
+    display: none;
+    font-family: 'Sniglet';
+    color: $custom-milk;
+    font-size: 20pt;
+  }
+
+  @media only screen and (max-width: 720px) {
+    .name {
+      display: block;
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    .name {
+      font-size: 14pt;
+    }
   }
 </style>

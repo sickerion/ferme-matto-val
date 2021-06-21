@@ -93,80 +93,8 @@ export default {
 }
 
 @media only screen and (max-width: 720px) {
-  .textContainer {
-    top: 7em;
-    right: 1.25em;
-    left: 1.25em;
-    text-align: center;
-  }
-
-  .title {
-    font-size: 50pt;
-
-  }
-
-  .subtitle {
-    font-size: 35pt;
-
-  }
-}
-
-@media only screen and (max-width: 540px) {
-  .textContainer {
-    top: 7em;
-    right: 0.75em;
-    left: 0.75em;
-    text-align: center;
-  }
-
-  .title {
-    font-size: 40pt;
-
-  }
-
-  .subtitle {
-    font-size: 30pt;
-
-  }
-}
-
-@media only screen and (max-width: 420px) {
-  .textContainer {
-    top: 4em;
-    right: 0.5em;
-    left: 0.5em;
-    text-align: center;
-  }
-
-  .title {
-    font-size: 35pt;
-
-  }
-
-  .subtitle {
-    font-size: 28pt;
-  }
-
-  .image {
-    height: 20rem;
-  }
-}
-
-  @media only screen and (max-width: 370px) {
-  .textContainer {
-    top: 4em;
-    right: 0.5em;
-    left: 0.5em;
-    text-align: center;
-  }
-
-  .title {
-    font-size: 30pt;
-
-  }
-
-  .subtitle {
-    font-size: 25pt;
+  .headerContainer {
+    display: none;
   }
 }
 </style>
