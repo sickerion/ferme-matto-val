@@ -1,19 +1,24 @@
 <template>
   <div class="contactBar">
-    <b-row align-v="center">
-      <b-col lg="2">
+    <b-row align-v="center" style="padding-bottom: 1rem;">
+      <b-col lg="1">
       </b-col>
-      <b-col lg="4">
+      <b-col lg="3">
+        <a href="https://lotbiniere.chaudiereappalaches.com/fr/voyage-quebec/lotbiniere/val-alain/ferme-matto-val-halte-champetre/agrotourisme/" target="_blank" rel="noopener noreferrer">
+          <img style="padding-bottom: 1em;" src="../assets/logo_tourisme_lotbinière.png" class="d-inline-block align-top" alt="Logo Tourisme Lotbinière" width="250px">
+        </a>
+      </b-col>
+      <b-col lg="3">
         <a href="https://fraisesetframboisesduquebec.com/autocueillette/ferme-matto-val/" target="_blank" rel="noopener noreferrer">
           <img style="padding-bottom: 1em;" src="../assets/logo_fraiches.png" class="d-inline-block align-top" alt="Logo fraiches" height="150px">
         </a>
       </b-col>
-      <b-col lg="4">
+      <b-col lg="3">
         <a href="https://www.terego.ca/fr" target="_blank" rel="noopener noreferrer">
           <img style="padding-bottom: 1em;" src="../assets/logo_terego.png" class="d-inline-block align-top" alt="Logo fraiches" width="250px">
         </a>
       </b-col>
-      <b-col lg="2">
+      <b-col lg="1">
       </b-col>
     </b-row>
     <b-row class="contactInfo" align-v="start">
