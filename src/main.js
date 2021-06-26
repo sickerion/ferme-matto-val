@@ -19,7 +19,7 @@ Vue.use(VueAnalytics, {
 
 Vue.use(VueFbCustomerChat, {
   page_id: 112495743738283,
-  theme_color: '#333333',
+  theme_color: '#016fb9',
   locale: 'fr_CA',
 })
 

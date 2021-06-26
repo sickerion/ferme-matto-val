@@ -17,7 +17,7 @@ export default {
   name: 'FrontPageHeader',
   data: function () {
     return {
-      headerImage: "https://i.imgur.com/O4XzIpD.jpg",
+      headerImage: "https://i.imgur.com/lVPHbIj.jpg",
       showText: false,
     }
   },
@@ -34,7 +34,7 @@ export default {
 
 .textContainer {
   position: absolute;
-  top: 5em;
+  top: 8em;
   right: 5em;
   text-align: right;
 }
@@ -68,7 +68,15 @@ export default {
 }
 
 .image {
-  height: 50rem;
+  height: 60rem;
+}
+
+@media only screen and (max-width: 1600px) {
+
+
+  .image {
+    height: 50rem;
+  }
 }
 
 @media only screen and (max-width: 960px) {

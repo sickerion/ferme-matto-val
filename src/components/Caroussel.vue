@@ -11,12 +11,11 @@
     name: 'Vegetables',
     mounted() {
       this.vegetableImages = [
-          "https://i.imgur.com/BTpzktl.jpg",
+          "https://i.imgur.com/6MNfHRI.jpg",
           "https://i.imgur.com/V1MAQTL.jpg",
           "https://i.imgur.com/Pagv1zR.jpg",
           "https://i.imgur.com/z6WBgX8.jpg",
-          "https://i.imgur.com/0jCami4.jpg",
-          "https://i.imgur.com/RgIsfn1.jpg"
+          "https://i.imgur.com/SYEd5uZ.jpg"
 
         ];
     },
