@@ -1,7 +1,7 @@
 <template>
   <div class="contactBar">
     <b-row align-v="center" style="padding-bottom: 1rem;">
-      <b-col lg="1">
+      <b-col lg="3">
       </b-col>
       <b-col lg="3">
         <a href="https://lotbiniere.chaudiereappalaches.com/fr/voyage-quebec/lotbiniere/val-alain/ferme-matto-val-halte-champetre/agrotourisme/" target="_blank" rel="noopener noreferrer">
@@ -14,11 +14,6 @@
         </a>
       </b-col>
       <b-col lg="3">
-        <a href="https://www.terego.ca/fr" target="_blank" rel="noopener noreferrer">
-          <img style="padding-bottom: 1em;" src="../assets/logo_terego.png" class="d-inline-block align-top" alt="Logo fraiches" width="250px">
-        </a>
-      </b-col>
-      <b-col lg="1">
       </b-col>
     </b-row>
     <b-row class="contactInfo" align-v="start">
@@ -54,7 +49,7 @@
     </b-row>
     <b-row class="copyright">
       <b-col>
-        <p class="text">© Ferme Matto-Val 2021 | Etienne Matteau</p>
+        <p class="text">© Ferme Matto-Val {{new Date().getFullYear()}} | Etienne Matteau</p>
       </b-col>
     </b-row>
   </div>

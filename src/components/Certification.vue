@@ -1,10 +1,10 @@
 <template>
   <div class="certification-container container-padding">
     <div>
-      <b-img class="image" :src="stallImage" alt="Logo biologique" fluid></b-img>
+      <b-img class="image" :src="certificationImage" alt="Logo Ecocert" fluid></b-img>
     </div>
       <div class="text-container">
-        <h1 class="title title-padding">Certifié biologique par Ecocert</h1>
+        <h1 class="title title-padding">Certifié biologique par Ecocert Canada</h1>
         <p class="text-content">
             Parce que votre santé et celle de l'environnement nous tiennent à coeur, nos fraises et nos légumes sont biologiques.
             Aucun produit chimique n'est utilisé pour faire pousser nos cultures et nos pratiques agricoles sont durables pour l'écosystème. 
@@ -19,7 +19,7 @@ export default {
   name: 'Certification',
   data: function () {
     return {
-      stallImage: "https://seeklogo.com/images/C/canada-organic-logo-10054A64D2-seeklogo.com.png"
+      certificationImage: "https://seeklogo.com/images/C/canada-organic-logo-10054A64D2-seeklogo.com.png"
     }
   },
 }
