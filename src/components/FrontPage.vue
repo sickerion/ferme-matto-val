@@ -1,5 +1,7 @@
 <template>
   <div class="frontPageContainer">
+    <b-alert show variant="warning" class="mb-0 pt-3 alertText">Saison 2022 terminée - Merci et à l'été prochain!</b-alert>
+    <!--<b-alert show dismissible variant="info" class="mb-0 pt-3 alertText">Ouverture - Ouvert tous les jours de 8h à 18h</b-alert>-->
     <FrontPageHeader />
     <FarmDescription id="farmDescription" />
     <Strawberries id="strawberries" />
@@ -49,5 +51,10 @@ export default {
 <style scoped lang="scss">
   .frontPageContainer {
     padding-top: 80px;
+  }
+  
+  .alertText {
+    font-family: 'Sniglet';
+    font-size: 16pt;
   }
 </style>
