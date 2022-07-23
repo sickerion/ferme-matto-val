@@ -22,11 +22,10 @@
       </b-col>
       <b-col class="info" lg="6" align-self="center">
         <b-row class="textContainer">
-          <p class="text">(418) 744-3058</p>
+          <a href="tel:4187443058" class="text">(418) 744-3058</a>
         </b-row>
         <b-row class="textContainer">
-          <p class="text">info</p>
-          <p class="text">@fermemattoval.com</p>
+          <a href="mailto:info@fermemattoval.com" class="text">info@fermemattoval.com</a>
         </b-row>
         <b-row class="textContainer">
           <p class="text">505 5e rang, Val-Alain Québec G0S 3H0</p>
@@ -76,12 +75,12 @@ export default {
 
   .collaboInfo {
     padding-bottom: 1em;
-
   }
 
   .text {
     font-family: 'Sniglet';
     color: $custom-milk;
+    font-size: 16pt;
   }
 
   .copyright {
