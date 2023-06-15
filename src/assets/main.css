@@ -1,0 +1,22 @@
+@import './base.css';
+@import './tailwind.css';
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  background-color: #fbf5f3;
+  overflow-y: hidden;
+  font-family: 'Sniglet';
+  padding: 0;
+}
+
+img {
+  max-width: none;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
