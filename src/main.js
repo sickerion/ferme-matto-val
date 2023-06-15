@@ -1,28 +1,15 @@
-import Vue from 'vue';
-import BootstrapVue from 'bootstrap-vue/dist/bootstrap-vue.esm';
-import App from './App.vue';
-import VueMeta from 'vue-meta';
-import VueAnalytics from 'vue-analytics';
-import VueFbCustomerChat from 'vue-fb-customer-chat';
+import './assets/main.css'
 
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap-vue/dist/bootstrap-vue.css';
+import { createApp } from 'vue'
+import App from './App.vue'
+import router from './router'
+//import VueFbCustomerChat from 'vue-fb-customer-chat';
+import { createHead } from "@vueuse/head"
 
-Vue.use(VueMeta);
-Vue.use(BootstrapVue);
+const head = createHead();
 
-Vue.config.productionTip = false
+const app = createApp(App);
 
-Vue.use(VueAnalytics, {
-  id: 'G-DRK1GBJQRW'
-})
+app.use(head).use(router);
 
-Vue.use(VueFbCustomerChat, {
-  page_id: 112495743738283,
-  theme_color: '#016fb9',
-  locale: 'fr_CA',
-})
-
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+app.mount('#app');
