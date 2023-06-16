@@ -7,7 +7,7 @@
     font-weight: 500;
     font-style: normal;
     font-display: auto;
-    src: url(@/assets/fonts/Sniglet-Regular.otf) format('opentype');
+    src: url(../assets/fonts/Sniglet-Regular.otf) format('opentype');
 }
 
 @font-face {
@@ -15,7 +15,7 @@
     font-weight: 700;
     font-style: normal;
     font-display: auto;
-    src: url(@/assets/fonts/Sniglet-ExtraBold.otf) format('opentype');
+    src: url(../assets/fonts/Sniglet-ExtraBold.otf) format('opentype');
 }
 
 #app {
