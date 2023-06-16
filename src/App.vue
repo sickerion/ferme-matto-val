@@ -1,18 +1,17 @@
 <script setup>
 import { RouterView } from 'vue-router'
-import Navbar from '@/components/NavBar.vue'
 </script>
 
 <template>
   <header>
-    <Navbar></Navbar>
+    <NavBar></NavBar>
   </header>
-
   <RouterView />
 </template>
 
 <script>
 import { useHead } from "@vueuse/head"
+import NavBar from '@/components/NavBar.vue'
 
 export default {
   setup() {
