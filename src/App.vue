@@ -1,17 +1,15 @@
 <script setup>
-import { RouterView } from 'vue-router'
+  import NavBar from '@/components/NavBar.vue'
+  import HomeView from '@/views/HomeView.vue'
 </script>
 
 <template>
-  <header>
-    <NavBar></NavBar>
-  </header>
-  <RouterView />
+  <NavBar />
+  <HomeView />
 </template>
 
 <script>
 import { useHead } from "@vueuse/head"
-import NavBar from '@/components/NavBar.vue'
 
 export default {
   setup() {
