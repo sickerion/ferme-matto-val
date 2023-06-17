@@ -1,10 +1,10 @@
 <script setup>
-  import NavBar from './components/NavBar.vue'
+  import NavBarComponent from './components/NavBarComponent.vue'
   import HomeView from './views/HomeView.vue'
 </script>
 
 <template>
-  <NavBar />
+  <NavBarComponent />
   <HomeView />
 </template>
 
