@@ -1,5 +1,5 @@
 <template>
-  <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-blue">
+  <nav class="flex flex-wrap items-center justify-between px-2 py-3 bg-blue z-10 fixed w-full">
     <div class="container px-4 flex flex-wrap items-center justify-between">
       <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
         <img src="@/assets/Logov2_petit_sans_fond.svg" class="inline-block align-top cursor-pointer w-16 h-16" alt="Logo">
