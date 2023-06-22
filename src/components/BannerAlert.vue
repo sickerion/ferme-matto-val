@@ -1,8 +1,8 @@
 <template>
-  <div class="alertBanner w-full fixed z-10">
+  <div class="alertBanner w-full fixed z-10 mt-2">
     <input id="banneralert" type="checkbox" class="hidden">
 
-    <label class="close cursor-pointer flex items-center justify-between w-full py-2 px-4  bg-green shadow text-white" title="close" for="banneralert">
+    <label class="close cursor-pointer flex items-center justify-between w-full py-2 px-4 bg-green shadow text-white" title="close" for="banneralert">
       {{ messageOuvertureSansAutocueillette }}
 
       <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
