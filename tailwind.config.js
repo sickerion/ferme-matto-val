@@ -14,6 +14,7 @@ module.exports = {
                 'green': '#3FAD20',
                 'red': '#FF1D15',
                 'orange': '#F46036',
+                'warning': '#f7ec11',
             },
             screens: {
               '3xl': '1920px',
