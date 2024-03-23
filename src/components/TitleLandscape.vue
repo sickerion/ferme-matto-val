@@ -7,7 +7,7 @@
             <h2 class="text-5xl mb-0 text-milk">biologiques</h2>
             </div>
         </div>
-        <img :src="headerImage" alt="Ferme Matto-Val" class="h-120 lg:h-200 2xl:h-220 3xl:h-240" />
+        <img :src="headerImage" alt="Champ de fraisier" class="h-120 lg:h-200 2xl:h-220 3xl:h-240" />
     </div>
 </template>
   

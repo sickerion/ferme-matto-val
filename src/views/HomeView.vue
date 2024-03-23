@@ -2,9 +2,9 @@
 import BannerAlert from '@/components/BannerAlert.vue'
 import TitleLandscape from '@/components/TitleLandscape.vue'
 import FarmDescription from '@/components/FarmDescription.vue'
-import Strawberries from '@/components/Strawberries.vue'
-import Certification from '@/components/Certification.vue'
-import Contact from '@/components/Contact.vue'
+import StrawberriesComponent from '@/components/StrawberriesComponent.vue'
+import CertificationComponent from '@/components/CertificationComponent.vue'
+import ContactComponent from '@/components/ContactComponent.vue'
 </script>
 
 <template>
@@ -12,8 +12,8 @@ import Contact from '@/components/Contact.vue'
     <BannerAlert />
     <TitleLandscape />
     <FarmDescription />
-    <Strawberries />
-    <Certification />
-    <Contact />
+    <StrawberriesComponent />
+    <CertificationComponent />
+    <ContactComponent />
   </main>
 </template>

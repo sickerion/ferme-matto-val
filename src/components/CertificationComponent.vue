@@ -1,7 +1,7 @@
 <template>
     <div class="bg-milk flex flex-col items-center mx-4 my-6">
         <div>
-        <img class="mb-6" :src="certificationImage" alt="Ecocert">
+        <img class="mb-6" :src="certificationImage" alt="Ecocert" loading="lazy">
         </div>
         <div class="lg:w-6/12">
           <h1 class="mb-4">Certifié biologique par Ecocert Canada</h1>

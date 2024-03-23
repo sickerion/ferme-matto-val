@@ -3,7 +3,7 @@
       <div>
         <div class="flex flex-col lg:flex-row-reverse lg:flex-row">
           <div class="lg:w-8/12">
-            <img :src="strawberriesImage" alt="Fraises biologiques" class="w-full">
+            <img :src="strawberriesImage" alt="Fraises" class="w-full" loading="lazy">
           </div>
           <div class="lg:w-4/12 mx-4 my-6 self-center">
             <h1 class="mb-4 text-milk">Des fraises pour tous les goûts</h1>
