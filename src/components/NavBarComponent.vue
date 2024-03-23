@@ -2,7 +2,7 @@
   <nav class="flex flex-wrap items-center justify-between px-2 py-3 bg-blue z-10 fixed w-full">
     <div class="container lg:px-6 px-2 flex items-center justify-between">
       <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-        <img src="@/assets/Logov2_petit_sans_fond.svg" class="inline-block align-top cursor-pointer w-16 h-16" alt="Logo">
+        <img src="@/assets/Logov2_petit_sans_fond.svg" class="inline-block align-top cursor-pointer w-16 h-16" alt="Icone Ferme Matto-Val">
         <div class="md:hidden flex flex-grow self-center justify-center">
           <p class="text-2xl text-milk">Ferme Matto-Val</p>
         </div>
@@ -12,10 +12,13 @@
       </div>
       <div class="flex">
         <a class="flex flex-grow self-center justify-center hover:opacity-75 pr-2 lg:pr-4" href="https://www.facebook.com/fermemattoval" target="_blank" rel="noopener noreferrer">
-          <img class="h-8" src="@/assets/icon_facebook.svg" alt="Facebook">
+          <img class="h-8" src="@/assets/icon_facebook.svg">
+        </a>
+        <a class="flex flex-grow self-center justify-center hover:opacity-75 pr-2 lg:pr-4" href="http://m.me/fermemattoval" target="_blank" rel="noopener noreferrer">
+          <img class="h-8" src="@/assets/icon_messenger.svg">
         </a>
         <a class="flex flex-grow self-center justify-center hover:opacity-75 pl-2 lg:pl-4" href="https://www.tiktok.com/@fermemattoval" target="_blank" rel="noopener noreferrer">
-          <img class="h-8" src="@/assets/icon_tiktok.svg" alt="Tik tok">
+          <img class="h-8" src="@/assets/icon_tiktok.svg">
         </a>
       </div>
       <!--<div :class="{'hidden': !showMenu, 'flex': showMenu}" class="lg:flex lg:flex-grow items-center">
