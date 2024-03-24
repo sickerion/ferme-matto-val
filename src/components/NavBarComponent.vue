@@ -13,7 +13,7 @@
         <a class="flex flex-grow self-center justify-center hover:opacity-75 pr-2 lg:pr-4" href="https://www.facebook.com/fermemattoval" target="_blank" rel="noopener noreferrer">
           <img class="h-8" src="@/assets/icon_facebook.svg">
         </a>
-        <a class="flex flex-grow self-center justify-center hover:opacity-75 lg:pr-4 lg:hidden" href="http://m.me/fermemattoval?text=Bonjour!%20N'hésitez%20pas%20à%20m'écrire%20si%20vous%20avez%20des%20questions." target="_blank" rel="noopener noreferrer">
+        <a class="flex flex-grow self-center justify-center hover:opacity-75 lg:pr-4 lg:hidden" href="https://m.me/fermemattoval" target="_blank" rel="noopener noreferrer">
           <img class="h-8" src="@/assets/icon_messenger.svg">
         </a>
         <a class="flex flex-grow self-center justify-center hover:opacity-75 pl-2 lg:pl-4" href="https://www.tiktok.com/@fermemattoval" target="_blank" rel="noopener noreferrer">
