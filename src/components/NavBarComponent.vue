@@ -1,8 +1,7 @@
 <template>
-  <nav class="flex flex-wrap items-center justify-between px-2 py-3 bg-blue z-10 fixed w-full">
-    <div class="container lg:px-6 px-2 flex items-center justify-between">
-      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-        <img src="@/assets/Logov2_petit_sans_fond.svg" class="inline-block align-top cursor-pointer w-16 h-16" alt="Icone Ferme Matto-Val">
+  <nav class="flex flex-wrap items-center justify-between px-2 lg:px-6 py-3 bg-blue z-10 fixed w-full">
+      <div class="flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <img src="@/assets/Logov2_petit_sans_fond.svg" class="inline-block align-top cursor-pointer w-16 h-16 pr-2 lg:pr-0" alt="Icone Ferme Matto-Val">
         <div class="md:hidden flex flex-grow self-center justify-center">
           <p class="text-2xl text-milk">Ferme Matto-Val</p>
         </div>
@@ -45,7 +44,6 @@
           </li>
         </ul>
       </div>-->
-    </div>
   </nav>
 </template>
 
