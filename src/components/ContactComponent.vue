@@ -37,6 +37,7 @@
             aria-hidden="false"
             tabindex="0"
             title="Adresse"
+            loading="lazy"
           >
           </iframe>
         </div>
