@@ -3,7 +3,7 @@
     <div class="flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
       <img src="@/assets/Logov2_petit_sans_fond.svg" class="inline-block align-top cursor-pointer w-16 h-16 pr-2 lg:pr-0" alt="Icone Ferme Matto-Val">
       <div class="md:hidden flex flex-grow self-center justify-center">
-        <p class="text-2xl text-milk">Ferme Matto-Val</p>
+        <h1 class="text-2xl text-milk">Ferme Matto-Val</h1>
       </div>
     </div>
     <div class="flex">
@@ -19,18 +19,3 @@
     </div>
   </nav>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      showMenu: false
-    }
-  },
-  methods: {
-    toggleNavbar: function(){
-      this.showMenu = !this.showMenu;
-    }
-  }
-}
-</script>

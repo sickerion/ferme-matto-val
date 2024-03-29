@@ -21,8 +21,6 @@ const activeTab = computed(() => {
 
   return props.tabs.find(tab => tab.id === activeTabId.value);
 })
-
-console.log(props.tabs);
 </script>
 
 <template>
@@ -35,19 +33,3 @@ console.log(props.tabs);
     <div class="mt-2 p-1 sm:p-2 md:p-4 min-h-20">{{ activeTab.content }}</div>
   </div>
 </template>
-
-<style>
-.tab {
-  padding: 10px;
-  cursor: pointer;
-}
-
-.tab.active {
-  background-color: #000;
-  color: #fff;
-}
-
-.tab-content {
-  margin-top: 10px;
-}
-</style>
