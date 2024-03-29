@@ -2,7 +2,7 @@
   <div>
     <div class="flex flex-col lg:flex-row">
       <div class="lg:w-8/12">
-        <img src="https://www.imghost.net/ib/HgTIJF2GdY18sco_1711206673.webp" class="w-full"  alt="Famille Matteau">
+        <img src="https://www.imghost.net/ib/HgTIJF2GdY18sco_1711206673.webp" class="w-full" alt="Famille Matteau">
       </div>
       <div class="lg:w-4/12 mx-4 my-6 self-center">
           <h2 class="mb-4">Une aventure aux racines familiales</h2>

@@ -8,13 +8,13 @@
     </div>
     <div class="flex">
       <a class="flex flex-grow self-center justify-center hover:opacity-75 pr-2 lg:pr-4" href="https://www.facebook.com/fermemattoval" target="_blank" rel="noopener noreferrer">
-        <img class="h-8" src="@/assets/icon_facebook.svg">
+        <img class="h-8" src="@/assets/icon_facebook.svg" alt="">
       </a>
       <a class="flex flex-grow self-center justify-center hover:opacity-75 lg:pr-4 lg:hidden" href="https://m.me/fermemattoval" target="_blank" rel="noopener noreferrer">
-        <img class="h-8" src="@/assets/icon_messenger.svg">
+        <img class="h-8" src="@/assets/icon_messenger.svg" alt="">
       </a>
       <a class="flex flex-grow self-center justify-center hover:opacity-75 pl-2 lg:pl-4" href="https://www.tiktok.com/@fermemattoval" target="_blank" rel="noopener noreferrer">
-        <img class="h-8" src="@/assets/icon_tiktok.svg">
+        <img class="h-8" src="@/assets/icon_tiktok.svg" alt="">
       </a>
     </div>
   </nav>
