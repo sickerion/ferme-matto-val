@@ -14,13 +14,13 @@
               <img src="@/assets/Logo_v3_plein.svg" class="h-44 inline-block align-top" alt="Logo Ferme Matto-Val" loading="lazy">
             </div>
             <div class="mt-6 lg:mt-10 lg:text-start self-center lg:w-6/12 flex flex-col">
-              <a href="tel:4187443058" class="text-lg text-milk py-1">
+              <a href="tel:4187443058" class="text-lg text-black py-1">
                 (418) 744-3058
               </a>
-              <a href="mailto:info@fermemattoval.com" class="text-lg text-milk py-1">
+              <a href="mailto:info@fermemattoval.com" class="text-lg text-black py-1">
                 info@fermemattoval.com
               </a>
-              <a href="https://www.google.com/maps/place/Ferme+Matto-Val/@46.4550796,-71.7505952,17z/data=!3m1!4b1!4m6!3m5!1s0x4cb879a6669c3757:0x1769c765bfc80311!8m2!3d46.4550796!4d-71.7505952!16s%2Fg%2F11r9tzj1wl?entry=ttu" class="text-lg text-milk py-1" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.google.com/maps/place/Ferme+Matto-Val/@46.4550796,-71.7505952,17z/data=!3m1!4b1!4m6!3m5!1s0x4cb879a6669c3757:0x1769c765bfc80311!8m2!3d46.4550796!4d-71.7505952!16s%2Fg%2F11r9tzj1wl?entry=ttu" class="text-lg text-black py-1" target="_blank" rel="noopener noreferrer">
                 505 5e rang, Val-Alain Québec G0S 3H0
               </a>
             </div>
@@ -42,9 +42,9 @@
           </iframe>
         </div>
     </div>
-      <div class="pt-4 mx-8 border-solid border-t-4 border-milk">
+      <div class="pt-4 mx-8 border-solid border-t-4 border-black">
         <div>
-          <p class="text-lg text-milk">© Ferme Matto-Val {{new Date().getFullYear()}}</p>
+          <p class="text-lg text-black">© Ferme Matto-Val {{new Date().getFullYear()}}</p>
         </div>
       </div>
     </div>
