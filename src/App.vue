@@ -14,19 +14,19 @@ import { useHead } from "@vueuse/head"
 export default {
   setup() {
       useHead({
-          title: "Ferme Matto-Val - Fraises et légumes biologiques",
+          title: "Ferme Matto-Val - Fraises biologiques",
           meta: [
               {
                   name: 'description',
-                  content: "Située près de l'autoroutes 20 à 30 minutes de Québec, la Ferme Matto-Val cultive des légumes et des fraises bio. " +
+                  content: "Située près de l'autoroutes 20 à 30 minutes de Québec, la Ferme Matto-Val cultive des fraises bio. " +
                     "Autocueillette pour les fraises biologiques en juin et juillet. " +
                     "Kiosque à la ferme ouvert durant la saison estivale. " +
                     "Halte gourmande, pique-nique, troupeau de bovins et plaisirs pour toute la famille.",
               },
-              { property: 'og:title', content: "Ferme Matto-Val - Fraises et légumes biologiques"},
+              { property: 'og:title', content: "Ferme Matto-Val - Fraises biologiques"},
                 {
                   property: 'og:description',
-                  content: "Située près de l'autoroutes 20 à 30 minutes de Québec, la Ferme Matto-Val cultive des légumes et des fraises bio. " +
+                  content: "Située près de l'autoroutes 20 à 30 minutes de Québec, la Ferme Matto-Val cultive des fraises bio. " +
                     "Autocueillette pour les fraises biologiques en juin et juillet. " +
                     "Kiosque à la ferme ouvert durant la saison estivale."
                 },

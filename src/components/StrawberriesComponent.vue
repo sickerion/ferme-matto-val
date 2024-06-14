@@ -8,7 +8,7 @@
         <h2 class="mb-4 text-milk">Des fraises pour tous les goûts</h2>
         <p class="text-lg text-milk">
           Que vous les préférez sucrées ou juteuses, grosses ou petites, nos 12 variétés de fraise vous charmerons de la fin juin à la fin juillet. 
-          Venez les choisir vous même en autocueillette ou passez à notre kiosque prendre un casseau bien rempli avec des légumes.
+          Venez les choisir vous même en autocueillette ou passez à notre kiosque prendre un casseau bien rempli avec une crème glacée molle.
         </p>
       </div>
     </div>
