@@ -3,7 +3,7 @@
     <div>
       <img class="mb-6" :src="certificationImage" alt="" loading="lazy">
     </div>
-    <div class="lg:w-6/12">
+    <div class="lg:w-6/12 text-black">
       <h2 class="mb-4">Certifié biologique par Ecocert Canada</h2>
       <p class="text-lg mb-2">
           Parce que votre santé et celle de l'environnement nous tiennent à coeur, nos fraises sont biologiques.
