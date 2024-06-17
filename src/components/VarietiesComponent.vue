@@ -4,18 +4,18 @@ import Tab from '@/models/Tab';
 import { reactive } from 'vue'
 
 const tabs = reactive([
-  new Tab('Wendy', 'Wendy est une variété précoce qui produit des fraises juteuses et sucrées, idéales pour commencer la saison de fraises en beauté.'),
-  new Tab('Saint-Laurent', 'Saint-Laurent est une variété résistante qui produit des fraises de taille moyenne à grande, parfaites pour ceux qui aiment les fraises charnues.'),
-  new Tab('Veestar', 'Veestar est connue pour ses fraises brillantes et savoureuses qui arrivent tôt en été, offrant une explosion de saveur juste à temps pour les pique-niques d’été.'),
-  new Tab('Audrey', 'Audrey est une variété hâtive productive qui produit des fraises douces et juteuses.'),
-  new Tab('Généreuse', 'Généreuse porte bien son nom, offrant une récolte abondante de fraises sucrées et parfumées, pour ceux qui aiment faire des réserves de fraises.'),
-  new Tab('Jewel', 'Jewel est une variété polyvalente qui produit des fraises de taille moyenne à grande, avec une saveur douce, idéale pour toutes sortes de recettes.'),
-  new Tab('Laurel', 'Laurel est une variété de mi-saison qui produit des fraises de grande taille avec une saveur riche.')
+  //new Tab('Kate', 'Cette variété tardive produit abondamment de grosses fraises.'),
+  //new Tab('Saint-Laurent', 'La Saint-Laurent est une variété tardive de forme conique développée à l\'Université Laval en collaboration avec des cultivateurs de l\'Île d\'Orléans.'),
+  new Tab('Veestar', 'La variété Veestar est connue pour ses petites fraises qui arrivent tôt en été. Elle est adorée par les cuisiniers et son goût se rapproche de celui des fraises des champs.'),
+  new Tab('Audrey', 'La Audrey produit des fraises de gros calibre tôt en saison. Elle est ferme et on la reconnaît par sa queue dentelée.'),
+  new Tab('Jewel', 'La Jewel est une variété hâtive qui produit de gros fruits. Elle goûte le bonbon!'),
+  //new Tab('Bounty', 'La variété Bounty arrive plus tard en saison. On la reconnait par sa couleur plus foncée.'),
+  new Tab('Généreuse', 'La variété Généreuse est hâtive et produit énormément.'),
 ]);
 </script>
 
 <template>
-  <div class="flex flex-col lg:flex-row bg-blue">
+  <div class="flex flex-col lg:flex-row bg-blue pt-8">
     <div class="lg:w-4/12 mx-4 mb-6 self-center">
       <h3 class="text-milk">Nos variétés disponibles en ce moment</h3>
     </div>

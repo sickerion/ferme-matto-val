@@ -5,7 +5,7 @@ import FarmDescription from '@/components/FarmDescription.vue'
 import StrawberriesComponent from '@/components/StrawberriesComponent.vue'
 import CertificationComponent from '@/components/CertificationComponent.vue'
 import ContactComponent from '@/components/ContactComponent.vue'
-//import VarietiesComponent from '@/components/VarietiesComponent.vue'
+import VarietiesComponent from '@/components/VarietiesComponent.vue'
 </script>
 
 <template>
@@ -14,7 +14,7 @@ import ContactComponent from '@/components/ContactComponent.vue'
     <TitleLandscape />
     <FarmDescription />
     <StrawberriesComponent />
-    <!--<VarietiesComponent />-->
+    <VarietiesComponent />
     <CertificationComponent />
     <ContactComponent />
   </main>
