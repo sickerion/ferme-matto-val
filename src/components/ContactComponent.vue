@@ -21,7 +21,7 @@
                 info@fermemattoval.com
               </a>
               <a href="https://www.google.com/maps/place/Ferme+Matto-Val/@46.4550796,-71.7505952,17z/data=!3m1!4b1!4m6!3m5!1s0x4cb879a6669c3757:0x1769c765bfc80311!8m2!3d46.4550796!4d-71.7505952!16s%2Fg%2F11r9tzj1wl?entry=ttu" class="text-lg text-black py-1" target="_blank" rel="noopener noreferrer">
-                505 5e rang, Val-Alain Québec G0S 3H0
+                505 5e rang, Val-Alain, Québec G0S 3H0
               </a>
             </div>
         <!--</div>-->

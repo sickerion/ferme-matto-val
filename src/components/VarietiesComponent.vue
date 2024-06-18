@@ -15,9 +15,9 @@ const tabs = reactive([
 </script>
 
 <template>
-  <div class="flex flex-col lg:flex-row bg-blue pt-8">
+  <div class="flex flex-col lg:flex-row bg-green pt-8">
     <div class="lg:w-4/12 mx-4 mb-6 self-center">
-      <h3 class="text-milk">Nos variétés disponibles en ce moment</h3>
+      <h3 class="text-black">Nos variétés disponibles en ce moment</h3>
     </div>
     <div class="lg:w-8/12 px-4 lg:pl-0 lg:pr-4 pb-6 lg:mt-6">
       <TabComponent :tabs="tabs" />

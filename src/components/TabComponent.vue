@@ -25,8 +25,8 @@ const activeTab = computed(() => {
 
 <template>
   <div v-if="activeTab !== null" class="flex flex-col rounded border bg-milk text-black">
-    <ul class="flex justify-center gap-1 sm:gap-2 xl:gap-4 inline-flex pt-2 px-1 sm:px-2 md:px-4 w-full border-b-2 border-blue lg:justify-start">
-      <li v-for="tab in props.tabs" :key="tab.id" class="cursor-pointer px-1 sm:px-2 md:px-4 py-2 rounded-t border-blue border-t-2 border-r-2 border-l-2 -mb-px flex items-center hover:opacity-75" :class="{ 'bg-blue text-milk': activeTabId === tab.id }" @click="setActiveTabId(tab.id)">
+    <ul class="flex justify-center gap-1 sm:gap-2 xl:gap-4 inline-flex pt-2 px-1 sm:px-2 md:px-4 w-full border-b-2 border-green lg:justify-start">
+      <li v-for="tab in props.tabs" :key="tab.id" class="cursor-pointer px-1 sm:px-2 md:px-4 py-2 rounded-t border-green border-t-2 border-r-2 border-l-2 -mb-px flex items-center hover:opacity-75" :class="{ 'bg-green': activeTabId === tab.id }" @click="setActiveTabId(tab.id)">
         {{ tab.title }}
       </li>
     </ul>
