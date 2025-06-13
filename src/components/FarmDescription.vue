@@ -8,7 +8,7 @@
           <h2 class="mb-4">Une aventure aux racines familiales</h2>
           <p class="text-lg">
             Cultivant sur les terres de Val-Alain depuis plus de 60 ans, la famille Matteau a débuté la culture de fraises en 2020.
-            Soucieuse de léguer un environnement sain aux générations futures et d'offrir des produits de qualité, l'ensemble de sa production végétale est biologique.
+            Soucieuse de léguer un environnement sain aux générations futures et d'offrir des produits de qualité, elle utilise des méthodes de culture écoresponsables.
           </p>
       </div>
     </div>
