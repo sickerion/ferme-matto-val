@@ -2,7 +2,7 @@
   <div class="alertBanner w-full fixed z-10 mt-2">
     <input id="banneralert" type="checkbox" class="hidden">
 
-    <p class="close cursor-pointer flex items-center justify-between w-full py-2 px-4 bg-warning shadow text-black" title="close" for="banneralert">
+    <p class="close cursor-pointer flex items-center justify-between w-full py-2 px-4 bg-green shadow text-black" title="close" for="banneralert">
       {{ closeMessage }}
 
       <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
@@ -18,7 +18,7 @@ export default {
     const messageOuvertureSansAutocueillette = "Les fraises sont arrivées! Le kiosque est ouvert. Ouverture de l'autocueillette à venir."
     const messageOuvertureAutocueillette = "Le kiosque et l'autocueillette sont ouverts!"
     const closeMessage = "La saison est terminée. Merci pour votre fidélité et à l'année prochaine!"
-    const messageOuvertCremerie = "La récolte 2024 de fraises est terminée. La crèmerie est ouverte! Horaire sur Facebook.";
+    const messageOuvertCremerie = "La crèmerie est ouverte! Horaire sur Facebook.";
     const messageLink = "https://www.facebook.com/fermemattoval/"
 
     return {
