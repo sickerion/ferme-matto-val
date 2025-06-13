@@ -1,8 +1,8 @@
 <template>
     <div class="bg-green pt-8 pb-4">
       <div class="flex flex-col lg:flex-row justify-center items-center pb-4">
-        <a class="mx-8" href="https://lotbiniere.chaudiereappalaches.com/fr/voyage-quebec/lotbiniere/val-alain/ferme-matto-val-halte-champetre/agrotourisme/" target="_blank" rel="noopener noreferrer">
-          <img class="w-60 pb-4 inline-block align-top" src="@/assets/logo_tourisme_lotbinière.png" alt="Logo Tourisme Lotbinière" loading="lazy">
+        <a class="mx-8" href="https://www.regionlotbiniere.com/lexperience-matto-val/" target="_blank" rel="noopener noreferrer">
+          <img class="w-60 pb-4 inline-block align-top h-40" src="https://www.regionlotbiniere.com/wp-content/uploads/2023/08/un-lot-dopportunite-1.svg" alt="Logo Tourisme Lotbinière" loading="lazy">
         </a>
         <a class="mx-8" href="https://fraisesetframboisesduquebec.com/autocueillette/ferme-matto-val/" target="_blank" rel="noopener noreferrer">
           <img class="pb-4 inline-block align-top h-42" src="@/assets/logo_fraiches.png" alt="Logo Fraiches du Québec" loading="lazy">
