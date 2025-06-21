@@ -4,7 +4,7 @@
       <div class="lg:w-4/12 mx-4 my-6 self-center">
         <h2 class="mb-4 text-milk">La crèmerie</h2>
         <p class="text-lg text-milk">
-          Après la cueillette, régalez-vous avec une crème glacée molle. Choisissez entre la classique vanille ou notre saveur faite avec les fraises cueillies à la ferme. Pour les gourmands, laissez-vous tenter par un sundae ou une sandwich à la crème glacée.
+          Après la cueillette, régalez-vous avec une crème glacée molle. Choisissez entre la classique vanille ou notre saveur faite avec les fraises cueillies à la ferme. Pour les gourmands, laissez-vous tenter par un sundae, une twist sur la go ou le spécial chocolat les vendredis.
         </p>
       </div>
       <div class="lg:w-8/12">
