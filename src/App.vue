@@ -14,7 +14,7 @@ import { useHead } from "@vueuse/head"
 export default {
   setup() {
       useHead({
-          title: "Ferme Matto-Val - Fraises",
+          title: "Ferme Matto-Val - Fraises écoresponsables",
           meta: [
               {
                   name: 'description',
@@ -23,7 +23,7 @@ export default {
                     "Kiosque à la ferme ouvert durant la saison estivale. " +
                     "Halte gourmande, pique-nique, troupeau de bovins et plaisirs pour toute la famille.",
               },
-              { property: 'og:title', content: "Ferme Matto-Val - Fraises"},
+              { property: 'og:title', content: "Ferme Matto-Val - Fraises écoresponsables"},
                 {
                   property: 'og:description',
                   content: "Située près de l'autoroutes 20 à 30 minutes de Québec, la Ferme Matto-Val cultive des fraises. " +
