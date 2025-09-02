@@ -1,7 +1,7 @@
 <template>
   <div v-if="showBanner" class="alertBanner w-full fixed z-10 mt-2">
-    <p class="close cursor-pointer flex items-center justify-between w-full py-2 px-4 bg-green shadow text-black" title="close">
-      {{ messageFraiseTermineEtCremerie }}
+    <p class="close cursor-pointer flex items-center justify-between w-full py-2 px-4 bg-warning shadow text-black" title="close">
+      {{ closeMessage }}
 
       <svg
         class="fill-current"
