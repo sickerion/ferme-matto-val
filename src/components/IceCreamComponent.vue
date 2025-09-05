@@ -8,7 +8,7 @@
         </p>
       </div>
       <div class="lg:w-8/12">
-        <img src="https://www.imghost.net/ib/O17Y8OvDaK60OKo_1718736224.webp" alt="" class="w-full" loading="lazy">
+        <img src="@/assets/O17Y8OvDaK60OKo_1718736224.webp" alt="" class="w-full" loading="lazy">
       </div>
     </div>
   </div>

@@ -6,7 +6,7 @@
       <h2 class="text-5xl mb-0 text-milk">Fraises écoresponsables</h2>
       </div>
     </div>
-    <img src="https://www.imghost.net/ib/2sHQ1pZZ5cgZyzZ_1711206675.webp" alt="Champ de fraisiers" class="h-120 lg:h-200 2xl:h-220 3xl:h-240" />
+    <img src="@/assets/2sHQ1pZZ5cgZyzZ_1711206675.webp" alt="Champ de fraisiers" class="h-120 lg:h-200 2xl:h-220 3xl:h-240" />
   </div>
 </template>
 
