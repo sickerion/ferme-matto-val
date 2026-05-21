@@ -1,11 +1,19 @@
 <script setup>
+import { defineAsyncComponent } from 'vue'
 import BannerAlert from '@/components/BannerAlert.vue'
 import TitleLandscape from '@/components/TitleLandscape.vue'
 import FarmDescription from '@/components/FarmDescription.vue'
-import StrawberriesComponent from '@/components/StrawberriesComponent.vue'
-import ContactComponent from '@/components/ContactComponent.vue'
-//import VarietiesComponent from '@/components/VarietiesComponent.vue'
-import IceCreamComponent from '@/components/IceCreamComponent.vue'
+
+// Load below-fold components asynchronously
+const StrawberriesComponent = defineAsyncComponent(() =>
+  import('@/components/StrawberriesComponent.vue')
+)
+const IceCreamComponent = defineAsyncComponent(() =>
+  import('@/components/IceCreamComponent.vue')
+)
+const ContactComponent = defineAsyncComponent(() =>
+  import('@/components/ContactComponent.vue')
+)
 </script>
 
 <template>
