@@ -1,7 +1,7 @@
 <template>
   <div v-if="showBanner" class="alertBanner w-full fixed z-10 mt-2">
-    <p class="close cursor-pointer flex items-center justify-between w-full py-2 px-4 bg-warning shadow text-black" title="close">
-      {{ closeMessage }}
+    <p class="close cursor-pointer flex items-center justify-between w-full py-2 px-4 bg-green shadow text-black" title="close">
+      {{ messageOuvertureCremerieAVenir }}
 
       <svg
         class="fill-current"
@@ -31,6 +31,7 @@ export default {
     const messageOuvertCremerie = "La crèmerie est ouverte! Horaire sur Facebook.";
     const messageLink = "https://www.facebook.com/fermemattoval/"
     const messageFraiseTermineEtCremerie = "Saison des fraises terminée. Ouverture de la crèmerie: jeudi 18h à 21h, vendredi et samedi 11h à 21h et dimanche 11h à 18h."
+    const messageOuvertureCremerieAVenir = "Ouverture de la crèmerie le 19 juin. Horaire sur Facebook."
 
     function closeBanner() {
       showBanner.value = false;
@@ -44,6 +45,7 @@ export default {
       messageOuvertCremerie,
       messageLink,
       messageFraiseTermineEtCremerie,
+      messageOuvertureCremerieAVenir,
       closeBanner
     }
   },
