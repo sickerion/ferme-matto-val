@@ -3,6 +3,7 @@ import { defineAsyncComponent } from 'vue'
 import BannerAlert from '@/components/BannerAlert.vue'
 import TitleLandscape from '@/components/TitleLandscape.vue'
 import FarmDescription from '@/components/FarmDescription.vue'
+import AdvertisementComponent from '@/components/AdvertisementComponent.vue'
 
 // Load below-fold components asynchronously
 const StrawberriesComponent = defineAsyncComponent(() =>
@@ -24,6 +25,7 @@ const ContactComponent = defineAsyncComponent(() =>
     <StrawberriesComponent />
     <!--<VarietiesComponent />-->
     <IceCreamComponent />
+    <AdvertisementComponent />
     <ContactComponent />
   </main>
 </template>
