@@ -4,10 +4,8 @@
       {{ messagePreouverture2026 }}
 
       <svg
-        class="fill-current"
+        class="fill-current flex-shrink-0 min-w-6 min-h-6 w-6 h-6"
         xmlns="http://www.w3.org/2000/svg"
-        width="18"
-        height="18"
         viewBox="0 0 18 18"
         @click="closeBanner"
         style="cursor:pointer"
