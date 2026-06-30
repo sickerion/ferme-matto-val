@@ -30,7 +30,7 @@ export default {
     const messageLink = "https://www.facebook.com/fermemattoval/"
     const messageFraiseTermineEtCremerie = "Saison des fraises terminée. Ouverture de la crèmerie: jeudi 18h à 21h, vendredi et samedi 11h à 21h et dimanche 11h à 18h."
     const messageOuvertureCremerieAVenir = "Ouverture de la crèmerie le 19 juin. Horaire sur Facebook."
-    const messagePreouverture2026 = "Ouvert tous les jours de 8h à 21h. Autocueillette dès le 24 juin."
+    const messagePreouverture2026 = "Ouvert tous les jours de 8h à 21h. Voir Facebook pour connaitre les disponibilités de l'autocueillette."
 
     function closeBanner() {
       showBanner.value = false;
